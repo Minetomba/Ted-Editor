@@ -1,16 +1,16 @@
-## Teddy Editor
-A modeless text editor I wrote in C89 that I may add new features as I start using it more and more. It was named "Teddy" because the first 3 letters stand for "**T**ext **Ed**itor".
+## Ted
+Ted stands for **T**ext **Ed**itor, which is a modeless text editor I wrote in C89 that I may add new features as I start using it more and more.
 
-## Feature checklist
-- YES - Press CTRL + C to quit
-- YES - File provided via first argument
-- YES - Characters inserted after cursor and file getting updated live
-- YES - Cursor a thin line between two letters (An ASCII pipe).
-- YES - Backspace to delete the character before the cursor and file getting updated live
-- YES - Enter to insert a newline character
-- YES - Tab to insert a tab character
-- YES - Rendering done on file change with proper handling for files too large for the terminal's rows and columns
-- YES - Cursor movement with arrow keys
+## Features
+- Press CTRL + C to quit
+- File provided via first argument
+- Characters inserted after cursor and file getting updated live
+- Cursor a thin line between two letters (An ASCII pipe).
+- Backspace to delete the character before the cursor and file getting updated live
+- Enter to insert a newline character
+- Tab to insert a tab character
+- Rendering done on file change with proper handling for files too large for the terminal's rows and columns
+- Cursor movement with arrow keys
 
 ## Compilation
 At the root of this repository, run the command below.
@@ -21,13 +21,13 @@ At the root of this repository, run the command below.
 ## Installation
 After compiling, you can install the teddy editor by running the following command.
 ```bash
-sudo cp main /bin/teddy-editor
+sudo cp main /bin/ted
 ```
 
 ## Reversing the installation process
 Remove the binary file.
 ```bash
-sudo rm /bin/teddy-editor
+sudo rm /bin/ted
 ```
 
 ## Version standard
